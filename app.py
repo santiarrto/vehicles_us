@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 car_data = pd.read_csv('vehicles_us.csv')
-
+st.header('Reportes vehiculos estados unidos')
 
 hist_checkbox = st.checkbox('Construir histograma') # crear un botón
     
